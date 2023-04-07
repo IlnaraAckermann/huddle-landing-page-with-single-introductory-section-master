@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
-html{
-    font-size: 62.5%;    
+html {
+    font-size: 62.5%;
     height: 100vh;
 }
+
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -14,11 +15,10 @@ body {
     display: grid;
     grid-template-rows: 1.5fr 4fr 1fr;
     grid-template-areas: "header header"
-                         "mockup main"
-                         "mockup socials";
+        "mockup main"
+        "mockup socials";
     gap: 3.2rem;
     color: #fff;
-
 }
 
 header {
@@ -31,7 +31,7 @@ header .logo {
     width: 21.5rem;
 }
 
-.mockup{
+.mockup {
     grid-area: mockup;
     padding: 0 0.3rem;
 }
@@ -68,9 +68,9 @@ main .btn-register {
     width: 20rem;
     height: 5.6rem;
     border-radius: 3.2rem;
-    -webkit-box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.3);
-    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3);
 }
 
 main .btn-register:hover {
@@ -98,13 +98,20 @@ main .btn-register:hover {
     justify-content: center;
 }
 
-.socials i:hover{
+.socials i:hover {
     color: var(--primary-soft);
     border-color: var(--primary-soft);
 }
 
-footer  { 
+footer {
     display: none;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: var(--primary-attribuition); }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--primary-attribuition);
+}
