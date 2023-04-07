@@ -1,0 +1,74 @@
+@media (max-width: 1400px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat var(--primary-medium);
+        grid-template-areas: "header"
+            "mockup"
+            "main"
+            "socials";
+        grid-template-rows: auto;
+        padding: 0rem;
+        gap: 0;
+    }
+
+
+    header {
+        margin: 2.5rem 3.4rem;
+        padding: 0;
+        
+    }
+
+    header .logo {
+        width: 13rem;
+    }
+
+    .mockup {
+        padding: 0;
+        margin:2.85rem 3.7rem 0;
+    }
+
+    .mockup .image {
+        width: 100%;
+    }
+
+    main {
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    main h1 {
+        font-size: 2.4rem;
+        padding: 0;
+        margin: 4.5rem 3.2rem 0;
+    }
+
+    main p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        padding: 0;
+        margin: 1.4rem 3.5rem 0;
+
+    }
+
+    main .btn-register {
+        font-size: 1.2rem;
+        height: 4rem;
+        border-radius: 3.2rem;
+        margin: 2.4rem 0 0;
+    }
+
+    .socials {
+        grid-area: socials;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .socials i {
+        font-size: 1.2rem;
+        width: 3rem;
+        height: 3rem;
+        margin: 0 0.4rem;
+    }
+}
