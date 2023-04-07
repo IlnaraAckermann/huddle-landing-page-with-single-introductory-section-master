@@ -1,6 +1,7 @@
 @media (max-width: 1400px) {
     body {
         background: url(../images/bg-mobile.svg) no-repeat var(--primary-medium);
+        background-size: contain;
         grid-template-areas: "header"
             "mockup"
             "main"
