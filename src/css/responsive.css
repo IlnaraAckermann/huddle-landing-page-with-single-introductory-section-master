@@ -1,12 +1,12 @@
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
     body {
         background: url(../images/bg-mobile.svg) no-repeat var(--primary-medium);
         background-size: contain;
+        grid-template-columns: auto;
         grid-template-areas: "header"
             "mockup"
             "main"
             "socials";
-        grid-template-rows: auto;
         padding: 0rem;
         gap: 0;
     }
@@ -25,10 +25,6 @@
     .mockup {
         padding: 0;
         margin: 2.85rem 3.7rem 0;
-    }
-
-    .mockup .image {
-        width: 100%;
     }
 
     main {

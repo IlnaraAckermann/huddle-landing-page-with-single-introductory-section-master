@@ -12,8 +12,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: url(../images/bg-desktop.svg) no-repeat var(--primary-medium) center center;
     background-size: cover;
-    display: grid;
-    grid-template-rows: 1.5fr 4fr 1fr;
+    display: grid;    
+    grid-template-columns: 1.4fr 1fr;    
     grid-template-areas: "header header"
         "mockup main"
         "mockup socials";
@@ -35,6 +35,11 @@ header .logo {
     grid-area: mockup;
     padding: 0 0.3rem;
 }
+
+.mockup .image {
+    width: 100%;
+}
+
 
 
 main {
