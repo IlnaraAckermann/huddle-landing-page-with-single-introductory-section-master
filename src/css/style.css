@@ -2,7 +2,6 @@
 
 html {
     font-size: 62.5%;
-    height: 100vh;
 }
 
 body {
@@ -11,7 +10,6 @@ body {
     padding: 0 7rem;
     font-family: 'Open Sans', sans-serif;
     background: url(../images/bg-desktop.svg) no-repeat var(--primary-medium) center center;
-    background-size: cover;
     display: grid;    
     grid-template-columns: 1.4fr 1fr;    
     grid-template-areas: "header header"
