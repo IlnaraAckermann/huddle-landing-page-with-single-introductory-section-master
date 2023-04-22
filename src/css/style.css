@@ -5,20 +5,28 @@ html {
 }
 
 body {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 7rem;
     font-family: 'Open Sans', sans-serif;
     background: url(../images/bg-desktop.svg) no-repeat var(--primary-medium) center center;
+    background-size: cover;
+    min-height: 100svh;
+    color: #fff;
+    display: flex;
+    align-content: center;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 7rem;
     display: grid;    
     grid-template-columns: 1.4fr 1fr;    
     grid-template-areas: "header header"
         "mockup main"
         "mockup socials";
     gap: 3.2rem;
-    color: #fff;
-}
 
+}
 header {
     grid-area: header;
     display: flex;
@@ -88,7 +96,7 @@ main .btn-register:hover {
     align-items: end;
 }
 
-.socials i {
+.socials a {
     font-size: 1.8rem;
     width: 4rem;
     height: 4rem;
@@ -101,7 +109,7 @@ main .btn-register:hover {
     justify-content: center;
 }
 
-.socials i:hover {
+.socials a:hover {
     color: var(--primary-soft);
     border-color: var(--primary-soft);
 }
